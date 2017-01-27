@@ -65,8 +65,9 @@ execute pathogen#infect()
 " ===================
 let g:user_emmet_mode='a'
 let g:user_emmet_install_global = 0
-let g:user_emmet_leader_key='<C-M>'
+let g:user_emmet_leader_key='<leader>e'
 autocmd FileType html,css,js,ejs EmmetInstall
+" NOTE: emmet leader key if followed by , (comma).
 
 " NerdTree configuration
 " ======================
