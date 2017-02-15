@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir -p bundle
+
 if [ ! -z $1 ]; then
   [ $1="update" ] && update=true
 fi
