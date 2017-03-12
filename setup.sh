@@ -27,5 +27,10 @@ if [ ! -d vim-lexical] || [ $update ]; then
   git clone https://github.com/reedes/vim-lexical.git
 fi
 
+if [ ! -d vim-multiple-cursors] || [ $update ]; then
+  rm -rf vim-multiple-cursors
+  git clone https://github.com/terryma/vim-multiple-cursors.git
+fi
+
 cp ~/.vim/.vimrc ~/.vimrc
 echo 'All Done!'
